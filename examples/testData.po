@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.0"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date: 2020-02-06T14:11:20.664Z"
+"PO-Revision-Date: 2020-02-06T14:11:20.664Z"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
+"X-Generator: vandermeer PO-Generator 0.0.1"
+
+#. firstEntry
+#: First Entry
+#| First Entry
+msgid "firstEntry"
+msgstr "First Entry"
+
+#. firstEntry.item1
+#: First Entry - 1. Item
+#| First Entry - 1. Item
+msgid "firstEntry.item1"
+msgstr "First Entry - 1. Item"
+
+#. firstEntry.item2
+#: First Entry - 2. Item
+#| First Entry - 2. Item
+msgid "firstEntry.item2"
+msgstr "First Entry - 2. Item"
+
+#. secondEntry
+#: Second Entry
+#| Second Entry
+msgid "secondEntry"
+msgstr "Second Entry"
+
+#. secondEntry.item1
+#: Second Entry - 1. Item
+#| Second Entry - 1. Item
+msgid "secondEntry.item1"
+msgstr "Second Entry - 1. Item"
+
+#. secondEntry.item2
+#: Second Entry - 2. Item
+#| Second Entry - 2. Item
+msgid "secondEntry.item2"
+msgstr "Second Entry - 2. Item"
+

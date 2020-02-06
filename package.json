@@ -1,0 +1,23 @@
+{
+  "name": "po-transformer",
+  "version": "1.0.0",
+  "main": "src/poTransformer.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Thomas Scharke",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "6.0.0",
+    "ora": "4.0.3"
+  },
+  "devDependencies": {
+    "prettier": "1.19.1"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "useTabs": false
+  }
+}
