@@ -2,8 +2,8 @@
 'use strict'
 
 const meow = require('meow')
-const main = require('./src/main')
-const { usage } = require('./src/messages')
+const main = require('./main')
+const { usage } = require('./messages')
 
 const config = {
   flags: {

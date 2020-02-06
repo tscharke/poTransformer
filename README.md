@@ -18,19 +18,19 @@ For these reasons I need something to transform flatted objects as JSON-files to
 Transforms an existing JSON-File to a PO-File
 
 ```bash
-$ npx poTransformer po --input examples/testData.json --output examples/testData.po
+$ npx po-transformer po --input examples/testData.json --output examples/testData.po
 ```
 
 Transforms an existing PO-File to a JSON-File
 
 ```bash
-$ npx poTransformer json --input examples/testData.po --output examples/testData.json
+$ npx po-transformer json --input examples/testData.po --output examples/testData.json
 ```
 
 Displays the usage
 
 ```bash
-$ npx poTransformer --help
+$ npx po-transformer --help
 ```
 
 ## Known Bugs

@@ -1,10 +1,26 @@
 {
   "name": "po-transformer",
-  "version": "1.0.0",
-  "main": "src/poTransformer.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "Thomas Scharke",
+  "version": "1.0.1",
+  "main": "/src/poTransformer.js",
+  "bin": {
+    "po-transformer": "./src/poTransformer.js"
+  },
+  "keywords": [
+    "po",
+    "json",
+    "poedit",
+    "transformer",
+    "converter",
+    "internationalize",
+    "i18n",
+    "multi-languages"
+  ],
+  "author": "Thomas Scharke <ask@van.dermeer.de>",
+  "homepage": "https://github.com/tscharke/poTransformer",
+  "repository": "git://github.com/tscharke/poTransformer.git",
+  "bugs": {
+    "url": "https://github.com/tscharke/poTransformer/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "meow": "6.0.0",
