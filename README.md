@@ -27,6 +27,12 @@ Transforms an existing PO-File to a JSON-File
 $ npx poTransformer json --input examples/testData.po --output examples/testData.json
 ```
 
+Displays the usage
+
+```bash
+$ npx poTransformer --help
+```
+
 ## Known Bugs
 
 The current situation of this project is, that it works for my workflow and situations only. It's a very raw and straightforward implementation tailored exactly to what I need.

@@ -1,7 +1,7 @@
 module.exports = {
   usage: `
   Usage
-    $ poTrans [po | json]
+    $ poTransformer [po | json]
 
     po                               Transfers JSON to PO
     json                             Transfers PO to JSON
@@ -12,10 +12,10 @@ module.exports = {
       --output                       Path and name of the output file
 
     Examples
-      Convert an existing JSON-File to a PO-File
+      Transforms an existing JSON-File to a PO-File
       $ poTransformer po --input examples/testData.json --output examples/testData.po
 
-      Convert an existing PO-File to a JSON-File
+      Transforms an existing PO-File to a JSON-File
       $ poTransformer json --input examples/testData.po --output examples/testData.json
   `,
 }
