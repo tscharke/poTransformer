@@ -12,10 +12,10 @@ module.exports = {
       --output                       Path and name of the output file
 
     Examples
-    Convert a existing JSON-File to a PO-File
-    $ poTrans po --input examples/testData.json --output examples/testData.po
+      Convert an existing JSON-File to a PO-File
+      $ poTransformer po --input examples/testData.json --output examples/testData.po
 
-    Convert a existing PO-File to a JSON-File
-    $ poTrans json --input examples/testData.po --output examples/testData.json
+      Convert an existing PO-File to a JSON-File
+      $ poTransformer json --input examples/testData.po --output examples/testData.json
   `,
 }
