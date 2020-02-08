@@ -16,6 +16,8 @@ jobs:
       - run: |
           sed -ie 's|\(.*"version"\): "\(.*\)",.*|\1: '"\"$new_version\",|" package.json
           yarn install
+          git config --local user.email "ask@van.dermeer.de"
+          git config --local user.name "Thomas Scharke"
           git add package.json
           git commit -m "Release ${{ github.ref }}"
       - uses: ad-m/github-push-action@master
