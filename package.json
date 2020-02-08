@@ -1,6 +1,6 @@
 {
   "name": "po-transformer",
-  "version": "refs/tags/1.0.3",
+  "version": "1.0.2",
   "bin": {
     "po-transformer": "./src/poTransformer.js"
   },
