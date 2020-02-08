@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 12
       - run: |
-          sed -ie 's|\(.*"version"\): "\(.*\)",.*|\1: '"\"${{ github.ref }}\",|" package.json
+          sed -ie 's|\(.*"version"\): "\(.*\)",.*|\1: '"\"$(echo "${{ github.ref }}" | sed 's/refs\/tags\/*//g')\",|" package.json
           yarn install
           git config --local user.email "ask@van.dermeer.de"
           git config --local user.name "Thomas Scharke"
