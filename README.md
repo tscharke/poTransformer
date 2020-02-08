@@ -1,4 +1,4 @@
-# PO-Transformer
+📚Transforms JSON-files to PO-Files ↔️ PO-Files to JSON-files
 
 ## Motivation
 
@@ -19,12 +19,32 @@ Transforms an existing JSON-File to a PO-File
 
 ```bash
 $ npx po-transformer po --input examples/testData.json --output examples/testData.po
+
+# Optional
+$ cat examples/testData.po
+…
+#. firstEntry
+#: First Entry
+#| First Entry
+msgid "firstEntry"
+msgstr "First Entry"
+…
 ```
 
 Transforms an existing PO-File to a JSON-File
 
 ```bash
 $ npx po-transformer json --input examples/testData.po --output examples/testData.json
+
+# Optional
+$ cat examples/testData.json
+{
+  …
+  "firstEntry": "First Entry",
+  "firstEntry.item1": "First Entry - 1. Item",
+  "firstEntry.item2": "First Entry - 2. Item",
+  …
+}
 ```
 
 Displays the usage
@@ -39,4 +59,4 @@ The current situation of this project is, that it works for my workflow and situ
 
 ## License
 
-MIT License 👉[LICENSE](LICENSE)
+[MIT License](LICENSE)
