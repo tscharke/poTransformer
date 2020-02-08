@@ -1,13 +1,13 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0.0"
+"Project-Id-Version: 1.0.2"
 "Report-Msgid-Bugs-To:"
-"POT-Creation-Date: 2020-02-06T14:11:20.664Z"
-"PO-Revision-Date: 2020-02-06T14:11:20.664Z"
+"POT-Creation-Date: 2020-02-08T13:21:16.056Z"
+"PO-Revision-Date: 2020-02-08T13:21:16.056Z"
 "MIME-Version: 1.0"
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
-"X-Generator: vandermeer PO-Generator 0.0.1"
+"X-Generator: po-transformer 1.0.2"
 
 #. firstEntry
 #: First Entry

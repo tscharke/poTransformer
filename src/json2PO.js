@@ -15,7 +15,7 @@ const ora = require('ora')
 const spinner = ora('Converting JSON to PO')
 const fs = require('fs')
 const DELIMITER = '\n'
-const { version } = require('../package.json')
+const { name, version } = require('../package.json')
 const flatData = data => data.reduce((s, e) => s.concat(e).concat(DELIMITER), '')
 const createTargetEntry = (name, value) =>
   [`#. ${name}`, `#: ${value}`, `#| ${value}`, `msgid "${name}"`, `msgstr "${value}"`, ''].join(DELIMITER)
@@ -38,7 +38,7 @@ const createPOHeader = (version, currentDate) =>
     '"MIME-Version: 1.0"',
     '"Content-Type: text/plain; charset=UTF-8"',
     '"Content-Transfer-Encoding: 8bit"',
-    '"X-Generator: vandermeer PO-Generator 0.0.1"',
+    `"X-Generator: ${name} ${version}"`,
     '',
   ].join(DELIMITER)
 
