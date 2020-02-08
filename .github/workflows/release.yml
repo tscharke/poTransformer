@@ -18,8 +18,8 @@ jobs:
           git config --local user.email "ask@van.dermeer.de"
           git config --local user.name "Thomas Scharke"
           git add package.json
-          git tag $(echo "${{ github.ref }}" | sed 's/refs\/tags\/*//g') -f
           git commit -m "Release $(echo "${{ github.ref }}" | sed 's/refs\/tags\/*//g')"
+          git tag $(echo "${{ github.ref }}" | sed 's/refs\/tags\/*//g') -f
           git push origin --tags
       - uses: ad-m/github-push-action@master
         with:
