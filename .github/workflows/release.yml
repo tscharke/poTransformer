@@ -12,9 +12,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          new_version: ${{ github.ref }}
       - run: |
-          sed -ie 's|\(.*"version"\): "\(.*\)",.*|\1: '"\"$new_version\",|" package.json
+          sed -ie 's|\(.*"version"\): "\(.*\)",.*|\1: '"\"${{ github.ref }}\",|" package.json
           yarn install
           git config --local user.email "ask@van.dermeer.de"
           git config --local user.name "Thomas Scharke"
