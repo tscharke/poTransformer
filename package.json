@@ -36,6 +36,6 @@
     "useTabs": false
   },
   "scripts": {
-    "prepare": "yarn build"
+    "prepare": "yarn install"
   }
 }
