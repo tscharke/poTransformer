@@ -1,6 +1,6 @@
 {
   "name": "po-transformer",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "bin": {
     "po-transformer": "./src/poTransformer.js"
   },
