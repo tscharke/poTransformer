@@ -20,7 +20,7 @@ jobs:
           git add package.json
           git commit -m "Release $(echo "${{ github.ref }}" | sed 's/refs\/tags\/*//g')"
           git tag $(echo "${{ github.ref }}" | sed 's/refs\/tags\/*//g') -f
-          git push origin --tags
+          git push origin -f --tags
       - uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
