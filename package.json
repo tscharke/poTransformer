@@ -34,5 +34,8 @@
     "singleQuote": true,
     "trailingComma": "all",
     "useTabs": false
+  },
+  "scripts": {
+    "prepare": "yarn build"
   }
 }
