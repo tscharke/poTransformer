@@ -1,6 +1,6 @@
-![Publish](https://github.com/tscharke/poTransformer/workflows/Publish/badge.svg?event=release)
-
 📚Transforms JSON-files to PO-Files ↔️ PO-Files to JSON-files
+
+![Publish](https://github.com/tscharke/poTransformer/workflows/Publish/badge.svg?event=release)
 
 ## Motivation
 
