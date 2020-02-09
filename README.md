@@ -1,6 +1,6 @@
 📚Transforms JSON-files to PO-Files ↔️ PO-Files to JSON-files
 
-![Publish](https://github.com/tscharke/poTransformer/workflows/Release%20and%20publish/badge.svg)
+![Published](https://github.com/tscharke/poTransformer/workflows/Release%20and%20publish/badge.svg) ![Downloads](https://img.shields.io/npm/dt/po-transformer)
 
 ## Motivation
 
