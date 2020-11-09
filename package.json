@@ -22,11 +22,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "meow": "6.0.0",
-    "ora": "4.0.3"
+    "meow": "8.0.0",
+    "ora": "5.1.0"
   },
   "devDependencies": {
-    "prettier": "1.19.1"
+    "prettier": "2.1.2"
   },
   "prettier": {
     "printWidth": 120,
