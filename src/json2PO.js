@@ -17,13 +17,29 @@ const fs = require('fs')
 const DELIMITER = '\n'
 const { name, version } = require('../package.json')
 const flatData = data => data.reduce((s, e) => s.concat(e).concat(DELIMITER), '')
-const createTargetEntry = (name, value) =>
-  [`#. ${name}`, `#: ${value}`, `#| ${value}`, `msgid "${name}"`, `msgstr "${value}"`, ''].join(DELIMITER)
+const createTargetEntry = (name, value, reference = value) =>
+  [`#. ${name}`, `#: ${reference}`, `#| ${value}`, `msgid "${name}"`, `msgstr "${value}"`, ''].join(DELIMITER)
+
+const generateEntriesForObject = (entry, source) =>
+  flatData(
+    Object.entries(source).map(([key, value]) => {
+      if (typeof value === 'string') {
+        return createTargetEntry(`${entry}.${key}`, value, `${entry}.${key}`)
+      }
+
+      return generateEntriesForObject(`${entry}.${key}`, value)
+    }),
+  )
 
 const generateEntries = source =>
   Object.keys(source)
     .reduce((result, entry) => {
-      return result.concat(createTargetEntry(entry, source[entry]))
+      const entrySource = source[entry]
+      if (typeof entrySource === 'string') {
+        return result.concat(createTargetEntry(entry, entrySource))
+      }
+
+      return result.concat(generateEntriesForObject(entry, entrySource))
     }, [])
     .join(DELIMITER)
 

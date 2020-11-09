@@ -4,5 +4,15 @@
   "firstEntry.item2": "First Entry - 2. Item",
   "secondEntry": "Second Entry",
   "secondEntry.item1": "Second Entry - 1. Item",
-  "secondEntry.item2": "Second Entry - 2. Item"
+  "secondEntry.item2": "Second Entry - 2. Item",
+  "firstObject": {
+    "firstObjectItem1": "First Object - 1. Item",
+    "firstObjectItem2": "First Object - 2. Item"
+  },
+  "secondObject": {
+    "secondObjectNestedObject": {
+      "secondObjectNestedObjectItem1": "Second Object- Nested Object - 1. Item",
+      "secondObjectNestedObjectItem2": "Second Object- Nested Object - 2. Item"
+    }
+  }
 }

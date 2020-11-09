@@ -1,13 +1,13 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0.2"
+"Project-Id-Version: 1.1.0"
 "Report-Msgid-Bugs-To:"
-"POT-Creation-Date: 2020-02-08T13:21:16.056Z"
-"PO-Revision-Date: 2020-02-08T13:21:16.056Z"
+"POT-Creation-Date: 2020-11-09T00:00:00.000Z"
+"PO-Revision-Date: 2020-11-09T00:00:00.000Z"
 "MIME-Version: 1.0"
 "Content-Type: text/plain; charset=UTF-8"
 "Content-Transfer-Encoding: 8bit"
-"X-Generator: po-transformer 1.0.2"
+"X-Generator: po-transformer 1.1.0"
 
 #. firstEntry
 #: First Entry
@@ -45,3 +45,27 @@ msgstr "Second Entry - 1. Item"
 msgid "secondEntry.item2"
 msgstr "Second Entry - 2. Item"
 
+#. firstObject.firstObjectItem1
+#: firstObject.firstObjectItem1
+#| First Object - 1. Item
+msgid "firstObject.firstObjectItem1"
+msgstr "First Object - 1. Item"
+
+#. firstObject.firstObjectItem2
+#: firstObject.firstObjectItem2
+#| First Object - 2. Item
+msgid "firstObject.firstObjectItem2"
+msgstr "First Object - 2. Item"
+
+
+#. secondObject.secondObjectNestedObject.secondObjectNestedObjectItem1
+#: secondObject.secondObjectNestedObject.secondObjectNestedObjectItem1
+#| Second Object- Nested Object - 1. Item
+msgid "secondObject.secondObjectNestedObject.secondObjectNestedObjectItem1"
+msgstr "Second Object- Nested Object - 1. Item"
+
+#. secondObject.secondObjectNestedObject.secondObjectNestedObjectItem2
+#: secondObject.secondObjectNestedObject.secondObjectNestedObjectItem2
+#| Second Object- Nested Object - 2. Item
+msgid "secondObject.secondObjectNestedObject.secondObjectNestedObjectItem2"
+msgstr "Second Object- Nested Object - 2. Item"
